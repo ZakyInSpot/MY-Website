@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: url('images/Pohon Sakura Asli.jpg') no-repeat center center/cover;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            flex-direction: column;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            color: white;
+        }
+        p {
+            font-size: 1.5em;
+            margin: 10px 0;
+            color: white;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 1em;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            background-color: #007BFF;
+            color: white;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selamat Datang</h1>
+    <p>Website sederhana dengan tampilan minimalist dan menyenangkan</p>
+    <div class="buttons">
+        <button onclick="start()">Mulai</button>
+        <button onclick="aboutMe()">About Me</button>
+    </div>
+    
+    <script>
+        function start() {
+            alert("Menu Mulai diklik");
+        }
+        function aboutMe() {
+            alert("Menu About Me diklik");
+        }
+    </script>
+</body>
+</html>
